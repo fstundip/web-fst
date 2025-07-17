@@ -9,6 +9,22 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/img/fst-warna.png" type="image/png">
+    <!-- Logo Schema for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Forum Studi Teknik UNDIP",
+      "url": "https://forumstuditeknik.com",
+      "logo": "https://forumstuditeknik.com/img/fst-warna.png",
+      "sameAs": [
+        "https://www.instagram.com/fstundip",
+        "https://www.linkedin.com/company/fstundip",
+        "https://www.youtube.com/@forumstuditeknikundip",
+        "https://www.tiktok.com/@fst_undip"
+      ]
+    }
+    </script>
     <!-- font google -->
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
