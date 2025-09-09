@@ -47,7 +47,7 @@ class BidangController extends Controller
         }
 
         return view('bidang', [
-            'title' => $bidang->name,
+            'title' => $bidang->name . ' | Forum Studi Teknik',
             'bidang' => $bidang,
             'anggotaByRows' => $anggotaByRows
         ]);

@@ -16,7 +16,7 @@ class PostController extends Controller
                 ->firstOrFail();
 
         return view('posts.show', [
-            "title" => $post->title,
+            "title" => $post->title . ' | Forum Studi Teknik',
             "post" => $post
         ]);
     }

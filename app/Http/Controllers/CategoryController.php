@@ -23,7 +23,7 @@ class CategoryController extends Controller
         }
 
         return view('category', [
-            'title' => $category->name, 
+            'title' => $category->name . ' | Forum Studi Teknik', 
             'category' => $category,
             'post' => $query->latest()->get()
         ]);

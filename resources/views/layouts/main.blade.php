@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="akcuDd3eoOSlEtdtP8UhxnyDAMarSjWipJWlONAmT7U" />
     <title>{{$title}}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -94,10 +95,10 @@
                                                 Kreatif</a>
                                             <a href="/bidang-kabinet/public-relation" class="dropdown-item fw-normal {{ Request::is('bidang-kabinet/public-relation') ? 'active' : '' }}">Public
                                                 Relation</a>
-                                            <a href="/bidang-kabinet/human-resource-development" class="dropdown-item fw-normal {{ Request::is('bidang-kabinet/human-resource-development') ? 'active' : '' }}">Human Resource Development</a>
+                                            <a href="/bidang-kabinet/human-resource-development" class="dropdown-item fw-normal {{ Request::is('bidang-kabinet/hrd') ? 'active' : '' }}">HRD</a>
                                             <a href="/bidang-kabinet/edukasi" class="dropdown-item fw-normal {{ Request::is('bidang-kabinet/edukasi') ? 'active' : '' }}">Edukasi</a>
                                             <a href="/bidang-kabinet/technopreneurship" class="dropdown-item fw-normal {{ Request::is('bidang-kabinet/technopreneurship') ? 'active' : '' }}">Technopreneurship</a>
-                                            <a href="/bidang-kabinet/internal-champion-team" class="dropdown-item fw-normal {{ Request::is('bidang-kabinet/internal-champion-team') ? 'active' : '' }}">Internal Champion Team</a>
+                                            <a href="/bidang-kabinet/internal-champion-team" class="dropdown-item fw-normal {{ Request::is('bidang-kabinet/ict') ? 'active' : '' }}">ICT</a>
                                         </div>
                                     </div>
                                 </div>
@@ -122,6 +123,7 @@
                                             <h6 class="dropdown-header text-success">KATEGORI
                                             </h6>
                                             <a href="/informasi/artikel" class="dropdown-item fw-normal {{ Request::is('informasi/artikel*') ? 'active' : '' }}">Artikel</a>
+                                            <a href="/informasi/beasiswa" class="dropdown-item fw-normal {{ Request::is('informasi/beasiswa*') ? 'active' : '' }}">Beasiswa</a>
                                             <a href="/informasi/lomba" class="dropdown-item fw-normal {{ Request::is('informasi/lomba*') ? 'active' : '' }}">Lomba</a>
                                             <a href="/informasi/press-release" class="dropdown-item fw-normal {{ Request::is('informasi/press-release*') ? 'active' : '' }}">Press Relase</a>
                                         </div>

@@ -12,7 +12,7 @@ class FStoreController extends Controller
         $product = Product::get();
 
         return view('fstore', [
-            "title" => "F-Store",
+            "title" => "F-Store | Forum Studi Teknik",
             "product" => $product
         ]);
     }

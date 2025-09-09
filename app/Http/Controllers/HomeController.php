@@ -20,7 +20,7 @@ class HomeController extends Controller
         $report = Report::latest('created_at')->take(3)->get();
 
         return view('home', [
-            "title" => "Forum Studi Teknik (FST)",
+            "title" => "Forum Studi Teknik UNDIP",
             "post" => $post,
             "report" => $report
         ]);

@@ -31,10 +31,10 @@
             <hr class="border border-success border-3" width="145px">
             <div class="overflow-auto" style="white-space: nowrap;">
                 @forelse($post as $item)
-                    <div class="d-inline-block me-2" style="width: clamp(150px, 40vw, 300px);">
+                    <div class="d-inline-block me-2" style="width: clamp(200px, 40vw, 400px);">
                         <img src="{{ asset('storage/' . $item->image) }}" 
                             alt="{{ $item->title }}" 
-                            class="img-fluid rounded-4 mx-2 my-2 mt-3"
+                            class="img-fluid rounded-4 mx-2 mb-3"
                             style="aspect-ratio: 16/9; object-fit: cover; object-position: center; box-shadow: 0 4px 8px #157347;">
                     </div>
                 @empty
@@ -65,7 +65,7 @@
             @else
                 <div class="row" style="font-size: clamp(0.8rem, 1.5vw, 1rem);">
                 @foreach ($report as $item)
-                <div class="col-4">
+                <div class="col-4 px-2">
                     <style>
                         .image-hover-wrapper {
                             position: relative;
@@ -85,7 +85,7 @@
                     </style>
                     <a href="{{ $item->link }}" class="image-hover-wrapper position-relative d-block text-decoration-none">
                         <img src="{{ asset('storage/' . $item->image) }}" alt="{{ $item->title }}"
-                            class="img-fluid" style="aspect-ratio: 4/5; object-fit: cover; object-position: center;">
+                            class="img-fluid" style="object-fit: cover; object-position: center;">
                         <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
                             <div class="text-white text-center fw-bold px-2">{{ $item->title }}</div>
                         </div>

@@ -11,7 +11,7 @@ class PageController extends Controller
         $page = Page::where('slug', $slug)->firstOrFail();
 
         return view('pages.show', [
-            'title' => $page->title,
+            'title' => $page->title . ' | Forum Studi Teknik',
             'page' => $page
         ]);
     }
